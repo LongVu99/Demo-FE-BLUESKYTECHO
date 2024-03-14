@@ -382,6 +382,11 @@ body{
 .about{
     max-width: 375px;
 }
+.about h4{
+    color: #515D66;
+    font-size: 14px;
+    font-weight: 500;
+}
 .about p:nth-of-type(1){
     margin-top: -15px;
     margin-bottom: 20px;

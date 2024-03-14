@@ -7,6 +7,7 @@ body{
 }
 .header hr{
     opacity: 25%;
+    margin: 10px -255px;
 }
 .top-link{
     display: flex;
@@ -308,7 +309,7 @@ body{
     padding: 10px 20px 0px;
     border-radius: 5px;
     border: 2px solid #DC323C;
-    height: 780px;
+    height: 772px;
 }
 .img-pro-mid p:nth-of-type(1),
 .img-pro-mid span:first-child{
@@ -468,8 +469,8 @@ body{
 }
 @media only screen and (max-width: 768px) {
     .layout {
-        max-width: 100%;
-        flex-wrap: wrap;
+        width: 768px;
+        margin: 0 25px;
     }
     .text-language h5,
     .text-language select,
@@ -486,6 +487,10 @@ body{
         width: 100%;
         margin-right: 0;
     }
+    .header hr{
+        max-width: 100%;
+        margin: 10px 0px;
+    }
     .content-layout{
         margin: 0;
         padding: 5px;
@@ -500,6 +505,12 @@ body{
     .menu a:first-child, a:last-child{
         display: none;
     }
+    .icon{
+        margin-right: 15px;
+    }
+    .logo{
+        margin-left: 5px;
+    }
     .nav .categories, .sale{
         display: none;
     }
@@ -512,12 +523,13 @@ body{
     }
     .menu-left{
         max-height: 450px;
+        max-width: 300px;
     }
     .menu-left hr:nth-last-child(-n +6){
         display: none;
     }
     .slider img{
-        max-width: 370px;
+        max-width: 460px;
         height: 150px;
     }
     .img-bg{
@@ -525,19 +537,27 @@ body{
         flex-wrap: wrap;
     }
     .img-bg > div{
-        max-width: 182px;
+        max-width: 227px;
     }
     .img-bg div:last-child{
-        max-width: 100%;
+       max-width: 440px;
+       margin-left: 45px;
+
     }
     .product{
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
     }
+    .img-pro-lf{
+        margin: 0px 60px 10px;
+    }
     .img-pro-mid{
-        width: 100%;
+        width: 95%;
         margin-bottom: 10px;
+    }
+    .footer{
+        padding: 0px 15px;
     }
     .footer, .copy{
         display: flex;
@@ -560,6 +580,7 @@ body{
         width: 100%;
         margin-right: 0;
     }
+
 
     .img-pro-lf {
         width: 100%;
